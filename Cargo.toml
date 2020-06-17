@@ -1,0 +1,15 @@
+[package]
+name = "__wasm_bindgen_test"
+version = "0.0.1"
+authors = ["Andrew <andrew@subarctic.org>"]
+license = "MIT OR Apache-2.0"
+description = "Tests for wasm targets"
+edition = "2018"
+readme = "README.md"
+repository = "https://github.com/andrew-johnson-4/wasm-bindgen-test"
+
+[dependencies]
+wasm-bindgen = "0.2.45"
+
+[dev-dependencies]
+wasm-bindgen-test = "0.3.0"
