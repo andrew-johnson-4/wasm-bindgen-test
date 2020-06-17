@@ -1,2 +1,3 @@
 # wasm-bindgen-test
-Staples for features handcrafted from yarn
+
+Tests for tracking WASM features, this is not a project, just a repo to dump these kinds of things.
