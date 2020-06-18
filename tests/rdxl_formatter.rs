@@ -7,7 +7,7 @@ wasm_bindgen_test::wasm_bindgen_test_configure!(run_in_browser);
 struct MyVal {}
 impl MyVal {
    fn to_style(&self) -> String {
-      "\"My:Val;\"".to_string()
+      "My:Val;".to_string()
    }
 }
 
@@ -23,6 +23,6 @@ fn formatter1(){
 fn formatter2(){
    assert_eq!(
       xhtml!(<div an_attr={{ 2 }}>dave</div>),
-      "<div an_attr=2>dave</div>".to_string()
+      "<div an_attr=\"2\">dave</div>".to_string()
    );
 }
